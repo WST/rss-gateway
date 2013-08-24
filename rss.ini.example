@@ -1,0 +1,14 @@
+[xmpp]
+hostname = xmpp.jsmart.web.id
+port = 5247
+component_name = rss.jsmart.web.id
+password = xxxxxxx
+component_title = "Push RSS"
+
+[daemon]
+log = /dev/null
+timezone = 'Asia/Jakarta'
+
+[rss]
+refresh_interval = 600
+max_length = 524288
