@@ -35,7 +35,7 @@ error_reporting($daemon ? 0 : E_ALL);
 set_time_limit(0);
 
 // Подключаем php-component и части транспорта
-require __DIR__ . '/php-component/component.inc.php';
+require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/inc/curl.inc.php';
 require __DIR__ . '/inc/rss_feed_item.inc.php';
 require __DIR__ . '/inc/rss_feed.inc.php';
